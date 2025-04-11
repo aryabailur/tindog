@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4{
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    
+}
+
+
+.big-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+  font-weight: 800;
+  margin-left: 50px;
+
+}
+p{
+    color: #8f8f8f;
+    font-weight: 700;
+}
+.download{
+    margin-left: 50px;
+}
+#header{
+    color: white;
+    
+    
+}
+#brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 5rem ;
+  
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montsarret-light";
+}
+.download{
+    margin-top: 5%;
+    
+}
+.container-fluid{
+   margin-bottom: 0;
+   height: 40rem;
+}
+
+.title-image{
+    width: 40%;
+    transform: rotate(25deg);
+    
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+   position: relative;
+}
+.features-text{
+    font-weight: 800;
+}
+.features-para{
+    color: #8f8f8f;
+    font-weight: 700;
+}
+.feature-box{
+   
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+   
+    
+    background-color: #ef8172;
+    color: white;
+}
+
+.feedback,.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 40px;
+}
+#press{
+    background-color: #ef8172;
+   
+    padding-bottom: 3%;
+}
+.company{
+    width: 20%;
+    padding: 2%;
+}
+.carousel-item {
+    transition: transform 0.5s ease-in-out; /* Adjust duration and easing */
+    padding: 7% 15%;
+}
+.card-header h3{
+    font-family: "Montsarret";
+    font-weight: 540;
+    font-size: 2rem;
+
+}
+#pricing{
+    
+    padding: 150px;
+}
+.price{
+    line-height: 1.5;
+    font-size: 3rem; 
+}
+.price-para{
+    color: #8f8f8f;
+    font-weight: 700; 
+}
+card{
+    padding: 100px;
+}
+.sign{
+   width: 100%;
+}
+.pricing-column{
+    padding: 3% 3%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+@media(max-width=1028px){
+    
+    .title-image {
+        position: relative; /* Change from absolute to relative */
+        transform: none; /* Remove rotation */
+        width: 100%; /* Ensure the image fits the screen width */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+}
+#cta {
+   
+    font-family: "Montsarret";
+    background-color: #ff4c68;
+    padding: 3%;
+}
+.cta-text{
+    color: white;
+    padding: 5%;
+    font-size: 3.5rem;
+    line-height:4rem;
+    font-weight: 800;
+ 
+}
+#footer{
+   
+    padding: 7%;
+}
+.footer-para{
+    color: #8f8f8f;
+    font-weight: 700;  
+}
+.social-media{
+    margin: 20px 10px;
+}
+
+
+
